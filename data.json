@@ -1,0 +1,75 @@
+{
+    "projects": 
+        [
+            {
+                "id": 0,
+                "project_name": "Random Quote Generator",
+                "description": "A very simple Javascript app. The quote generator randomly displays a quote from an array of quote objects. The app displays a random new quote every 10 seconds. The app's background color is also randomized.",
+                "technologies": ["CSS", "javascript"],
+                "live_link": "https://wildrover254.github.io/TechDegree-Project-1/",
+                "github_link": "https://github.com/wildrover254/TechDegree-Project-1",
+                "image_urls": [
+                    "../static/images/quoteGen.jpg",
+                    "../static/images/quoteGen1.jpg",
+                    "../static/images/quoteGen2.jpg"
+                ]
+            },
+            {
+                "id": 1,
+                "project_name": "Data Pagination",
+                "description": "The data pagination project takes and array of student objects and displays nine of them on a page. There are a number of buttons dynamically displayed at the bottom of the page that allow users to navigate between pagess of students.",
+                "technologies": ["javascript"],
+                "live_link": "https://wildrover254.github.io/Project-2/",
+                "github_link": "https://github.com/wildrover254/Project-2",
+                "image_urls": [
+                    "../static/images/datPag.jpg",
+                    "../static/images/datPag1.jpg",
+                    "../static/images/datPag2.jpg"
+                ]
+            },
+            {
+                "id": 2,
+                "project_name": "Form Validation",
+                "description": "This project is an interactive registration form. The form uses Regular Expressions to make sure that the user has entered the proper information and displays clear error messages if the info is wrong. It also dynamically displays the T-Shirt and Payment Sections depending on the users selections.",
+                "technologies": [
+                    "Javascript",
+                    "Regular Expressions"
+                ],
+                "live_link": "https://wildrover254.github.io/Project-3/",
+                "github_link": "https://github.com/wildrover254/Project-3",
+                "image_urls": [
+                    "../static/images/formVal.jpg",
+                    "../static/images/formVal1.jpg",
+                    "../static/images/formVal2.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "project_name": "Gameshow App",
+                "description": "Object-Oriented gameshow app.",
+                "technologies": [
+                    "Object-Oriented Javascript",
+                    "CSS"
+                ],
+                "live_link": "https://wildrover254.github.io/Project-4/",
+                "github_link": "https://github.com/wildrover254/Project-4",
+                "image_urls": [
+                    "../static/images/gameShow.jpg",
+                    "../static/images/gameShow1.jpg",
+                    "../static/images/gameShow2.jpg"
+                ]
+            },
+            {
+                "id": 4,
+                "project_name": "API Requests App",
+                "description": "Pulls 12 random users from an API and displays them.",
+                "technologies": ["API calls"],
+                "live_link": "https://wildrover254.github.io/Project-5/",
+                "github_link": "https://github.com/wildrover254/Project-5",
+                "image_urls": [
+                    "../static/images/apiRequest.jpg",
+                    "../static/images/apiRequest1.jpg"
+                ]
+            }
+        ]
+}
