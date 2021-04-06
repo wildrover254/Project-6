@@ -5,7 +5,10 @@
                 "id": 0,
                 "project_name": "Random Quote Generator",
                 "description": "A very simple Javascript app. The quote generator randomly displays a quote from an array of quote objects. The app displays a random new quote every 10 seconds. The app's background color is also randomized.",
-                "technologies": ["CSS", "javascript"],
+                "technologies": [
+                    "CSS", 
+                    "javascript"
+                ],
                 "live_link": "https://wildrover254.github.io/TechDegree-Project-1/",
                 "github_link": "https://github.com/wildrover254/TechDegree-Project-1",
                 "image_urls": [
@@ -18,7 +21,9 @@
                 "id": 1,
                 "project_name": "Data Pagination",
                 "description": "The data pagination project takes and array of student objects and displays nine of them on a page. There are a number of buttons dynamically displayed at the bottom of the page that allow users to navigate between pagess of students.",
-                "technologies": ["javascript"],
+                "technologies": [
+                    "javascript"
+                ],
                 "live_link": "https://wildrover254.github.io/Project-2/",
                 "github_link": "https://github.com/wildrover254/Project-2",
                 "image_urls": [
@@ -62,8 +67,11 @@
             {
                 "id": 4,
                 "project_name": "API Requests App",
-                "description": "Pulls 12 random users from an API and displays them.",
-                "technologies": ["API calls"],
+                "description": "This app pulls twelve randomized user objects from an open-source API and displays them on the page. You can click on a user to bring up a modal window with more info about the user. This is done with a single fetch request.",
+                "technologies": [
+                    "Public API calls",
+                    "Javascript"
+                ],
                 "live_link": "https://wildrover254.github.io/Project-5/",
                 "github_link": "https://github.com/wildrover254/Project-5",
                 "image_urls": [

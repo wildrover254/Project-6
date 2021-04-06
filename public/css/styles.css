@@ -300,6 +300,27 @@ nav a span {
   border: 1px solid transparent;
 }
 
+/*
+  Error Styles
+*/
+.error {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.error h1 {
+  padding-top: 5%;
+}
+
+.error p {
+  font-size: large;
+}
+
+.error-image {
+  padding-top: 5%;
+  max-width: 400px;
+}
 
 /* 
   Tablet layout styles 
