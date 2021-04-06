@@ -46,7 +46,7 @@
             {
                 "id": 3,
                 "project_name": "Gameshow App",
-                "description": "Object-Oriented gameshow app.",
+                "description": "This project uses Object Oriented Javascript to make a hangman style browser game. There are two seperate objects, Game and Phrase, which make up the app. A random phrase is selected and the user gets five incorrect answers before they lose and have to restart.",
                 "technologies": [
                     "Object-Oriented Javascript",
                     "CSS"
