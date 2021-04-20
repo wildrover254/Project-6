@@ -18,26 +18,33 @@ app.get('/about', (req, res) => {
     res.render('about.pug');
 });
 
-app.get('/project/:id', (req,res) => {
+app.get('/project/:id', (req,res,next) => {
     const { id } = req.params;
-    const { project_name } = projects[id];
-    const { description } = projects[id];
-    const { live_link } = projects[id];
-    const { github_link } = projects[id];
-    const { technologies } = projects[id];
-    const { image_urls } = projects[id];
 
-    const projectData = { project_name, description, live_link, github_link, technologies, image_urls };
+    if (id <= projects.length) {
+        const { project_name } = projects[id];
+        const { description } = projects[id];
+        const { live_link } = projects[id];
+        const { github_link } = projects[id];
+        const { technologies } = projects[id];
+        const { image_urls } = projects[id];
 
-    res.render('project', projectData);
-    console.log(projectData)
+        const projectData = { project_name, description, live_link, github_link, technologies, image_urls };
+
+        res.render('project', projectData);
+        console.log(projectData)
+    } else {
+        const err = new Error('Not Found!');
+        err.status = 404;
+        next(err);
+    }
 });
 
-app.use((req, res, next) => {
+/*app.use((req, res, next) => {
     const err = new Error('Not Found!');
     err.status = 404;
     next(err);
-});
+});*/
 
 app.use((err, req, res, next) => {
     res.locals.error = err;
