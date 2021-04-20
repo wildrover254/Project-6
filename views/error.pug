@@ -2,4 +2,11 @@ extends layout.pug
 
 block content 
 
-    
+    section.error 
+        h1= `Error Code - ${error.status}`
+        p= `${error.message}`
+
+    nav.nav     
+        a(href='/')
+          span &larr;
+          |  Back
