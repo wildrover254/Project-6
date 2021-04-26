@@ -7,7 +7,7 @@
                 "description": "A very simple Javascript app. The quote generator randomly displays a quote from an array of quote objects. The app displays a random new quote every 10 seconds. The app's background color is also randomized.",
                 "technologies": [
                     "CSS", 
-                    "javascript"
+                    "Javascript"
                 ],
                 "live_link": "https://wildrover254.github.io/TechDegree-Project-1/",
                 "github_link": "https://github.com/wildrover254/TechDegree-Project-1",
@@ -22,7 +22,7 @@
                 "project_name": "Data Pagination",
                 "description": "The data pagination project takes and array of student objects and displays nine of them on a page. There are a number of buttons dynamically displayed at the bottom of the page that allow users to navigate between pagess of students.",
                 "technologies": [
-                    "javascript"
+                    "Javascript"
                 ],
                 "live_link": "https://wildrover254.github.io/Project-2/",
                 "github_link": "https://github.com/wildrover254/Project-2",

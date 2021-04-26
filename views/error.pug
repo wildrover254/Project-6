@@ -3,8 +3,10 @@ extends layout.pug
 block content 
 
     section.error 
-        h1= `Error Code - ${error.status}`
-        p= `${error.message}`
+        h1= `Error Code - ${err.status}`
+        h2= `${err.message}`
+        p Please return to the homepage.
+
 
     nav.nav     
         a(href='/')
